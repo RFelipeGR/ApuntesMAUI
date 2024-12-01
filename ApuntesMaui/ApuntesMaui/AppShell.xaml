@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ApuntesMaui"
     Title="ApuntesMaui">
-<!--
+
     <FlyoutItem Title="INICIO">
         <ShellContent
         Title="Home"
@@ -33,7 +33,6 @@
         ContentTemplate="{DataTemplate local:Pagina3}"
         Route="MainPage" />
     </FlyoutItem>
--->
 
     <TabBar>
         <Tab Title="Home" Icon="dotnet_bot.png">
