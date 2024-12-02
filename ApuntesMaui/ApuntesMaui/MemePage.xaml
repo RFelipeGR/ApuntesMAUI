@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApuntesMaui.MemePage"
+             Title="MemePage">
+
+    <StackLayout Padding="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        <!-- Título de la página -->
+        <Label Text="Aquí está tu Meme" 
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <!-- Imagen del Meme -->
+        <Image Source="meme_image.png"  
+            Aspect="AspectFit"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+            <!-- Texto adicional debajo del meme -->
+            <Label Text="Este es el meme que elegiste. ¡Que lo disfrutes!" 
+               FontSize="16" 
+               HorizontalOptions="Center"
+               VerticalOptions="End" />
+    </StackLayout>
+</ContentPage>

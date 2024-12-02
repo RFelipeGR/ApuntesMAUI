@@ -9,7 +9,7 @@
     <FlyoutItem Title="INICIO" Icon="dotnet_bot.png">
 
         <ShellContent Title="About"
-ContentTemplate="{DataTemplate local:AboutPage}"/>
+            ContentTemplate="{DataTemplate local:AboutPage}"/>
 
 
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
@@ -33,16 +33,23 @@ ContentTemplate="{DataTemplate local:AboutPage}"/>
         <Tab Title="Pagina 4" Icon="dotnet_bot.png">
             <ShellContent
             Title="Pagina 4"
+                
             ContentTemplate="{DataTemplate local:Pagina4}"
             Route="Pagina4" />
         </Tab>
+
+
+        <ShellContent  Title="Meme" Icon="meme_icon.png"
+                  ContentTemplate="{DataTemplate local:MemePage}" />
+        
+
     </FlyoutItem>
 
     <!-- Flyout Item que contiene Tabs -->
     <FlyoutItem Title="Pagina 1" Icon="dotnet_bot.png">
 
         <ShellContent Title="About"
-    ContentTemplate="{DataTemplate local:AboutPage}"/>
+            ContentTemplate="{DataTemplate local:AboutPage}"/>
 
 
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
@@ -71,6 +78,11 @@ ContentTemplate="{DataTemplate local:AboutPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Pagina 2" Icon="dotnet_bot.png">
+
+        <ShellContent Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"/>
+        
+        
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
             <ShellContent
                Title="Pagina 1"
@@ -97,6 +109,10 @@ ContentTemplate="{DataTemplate local:AboutPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Pagina 3" Icon="dotnet_bot.png">
+
+        <ShellContent Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"/>
+
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
             <ShellContent
                Title="Pagina 1"
@@ -123,6 +139,10 @@ ContentTemplate="{DataTemplate local:AboutPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Pagina 4" Icon="dotnet_bot.png">
+
+        <ShellContent Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"/>
+
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
             <ShellContent
               Title="Pagina 1"

@@ -1,12 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ApuntesMaui.Pagina3"
-             Title="Pagina3">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Página 3">
+
+    <StackLayout Padding="20">
+        <Label Text="Explora lo que tenemos para ti en la Página 3"
+               FontSize="30" 
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+
+        <Label Text="Esta página está diseñada para brindarte más información sobre aspectos clave de la aplicación. Aquí puedes agregar detalles sobre funciones específicas, enlaces a recursos importantes, o información que consideres valiosa."
+               FontSize="16"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
 </ContentPage>
