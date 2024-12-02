@@ -2,18 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ApuntesMaui.Pagina2"
-             Title="Página 2">
+             Title="NVIDIA RTX 4090">
 
     <StackLayout Padding="20">
-        <Label Text="Descubre más en la Página 2"
+        <Label Text="Tarjeta Gráfica NVIDIA RTX 4090"
                FontSize="30" 
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
 
-        <Label Text="En esta página exploramos más detalles sobre el contenido de la aplicación. Puedes hablar de funcionalidades avanzadas, tutoriales, o cualquier tema que quieras profundizar con los usuarios."
+        <Label Text="La NVIDIA GeForce RTX 4090 es la GPU más avanzada de su clase. Con 24 GB de memoria GDDR6X, ray tracing de última generación y DLSS 3, redefine los límites del rendimiento gráfico."
                FontSize="16"
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
-
 </ContentPage>

@@ -2,18 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ApuntesMaui.Pagina3"
-             Title="Página 3">
+             Title="Placa Base Z790">
 
     <StackLayout Padding="20">
-        <Label Text="Explora lo que tenemos para ti en la Página 3"
+        <Label Text="Placa Base Z790"
                FontSize="30" 
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
 
-        <Label Text="Esta página está diseñada para brindarte más información sobre aspectos clave de la aplicación. Aquí puedes agregar detalles sobre funciones específicas, enlaces a recursos importantes, o información que consideres valiosa."
+        <Label Text="La motherboard Z790 está diseñada para aprovechar al máximo los procesadores de 13ª y 14ª generación de Intel. Ofrece compatibilidad con PCIe 5.0, DDR5 y conectividad avanzada para optimizar tu sistema."
                FontSize="16"
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
-
 </ContentPage>
+

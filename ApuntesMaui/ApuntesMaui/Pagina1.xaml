@@ -2,18 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ApuntesMaui.Pagina1"
-             Title="Página 1">
+             Title="Procesador Intel i9-14900K">
 
     <StackLayout Padding="20">
-        <Label Text="Bienvenido a la Página 1"
+        <Label Text="Procesador Intel Core i9-14900K"
                FontSize="30" 
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
 
-        <Label Text="Esta es la primera página de nuestra aplicación. Aquí puedes agregar información relevante sobre tu proyecto, como la introducción a los conceptos que cubres, la misión de la app, o cualquier información que desees destacar."
+        <Label Text="Con el Intel Core i9-14900K, lleva tu experiencia de computación al siguiente nivel. Este procesador ofrece 24 núcleos, velocidades de hasta 6.0 GHz, y un rendimiento optimizado para juegos, creación de contenido y multitarea."
                FontSize="16"
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
-
 </ContentPage>

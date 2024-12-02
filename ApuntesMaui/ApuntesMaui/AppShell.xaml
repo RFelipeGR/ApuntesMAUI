@@ -76,6 +76,10 @@
                 ContentTemplate="{DataTemplate local:Pagina4}"
                 Route="Pagina4" />
         </Tab>
+
+        <ShellContent  Title="Meme" Icon="meme_icon.png"
+      ContentTemplate="{DataTemplate local:MemePage}" />
+        
     </FlyoutItem>
     <FlyoutItem Title="Pagina 2" Icon="dotnet_bot.png">
 
@@ -107,6 +111,10 @@
                ContentTemplate="{DataTemplate local:Pagina4}"
                Route="Pagina4" />
         </Tab>
+
+        <ShellContent  Title="Meme" Icon="meme_icon.png"
+      ContentTemplate="{DataTemplate local:MemePage}" />
+        
     </FlyoutItem>
     <FlyoutItem Title="Pagina 3" Icon="dotnet_bot.png">
 
@@ -137,6 +145,10 @@
                ContentTemplate="{DataTemplate local:Pagina4}"
                Route="Pagina4" />
         </Tab>
+
+        <ShellContent  Title="Meme" Icon="meme_icon.png"
+      ContentTemplate="{DataTemplate local:MemePage}" />
+        
     </FlyoutItem>
     <FlyoutItem Title="Pagina 4" Icon="dotnet_bot.png">
 
@@ -167,9 +179,49 @@
               ContentTemplate="{DataTemplate local:Pagina4}"
               Route="Pagina4" />
         </Tab>
+
+        <ShellContent  Title="Meme" Icon="meme_icon.png"
+      ContentTemplate="{DataTemplate local:MemePage}" />
+
     </FlyoutItem>
 
 
+    <FlyoutItem Title="ABOUT" Icon="dotnet_bot.png">
+
+        <ShellContent Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"/>
 
 
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Pagina 1"
+            ContentTemplate="{DataTemplate local:Pagina1}"
+            Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Pagina 2"
+            ContentTemplate="{DataTemplate local:Pagina2}"
+            Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Pagina 3"
+            ContentTemplate="{DataTemplate local:Pagina3}"
+            Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Pagina 4"
+                
+            ContentTemplate="{DataTemplate local:Pagina4}"
+            Route="Pagina4" />
+        </Tab>
+
+
+        <ShellContent  Title="Meme" Icon="meme_icon.png"
+                  ContentTemplate="{DataTemplate local:MemePage}" />
+
+
+    </FlyoutItem>
 </Shell>

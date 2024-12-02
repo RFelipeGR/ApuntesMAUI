@@ -2,18 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ApuntesMaui.Pagina4"
-             Title="Página 4">
+             Title="Monitor ASUS ROG OLED">
 
     <StackLayout Padding="20">
-        <Label Text="Finaliza tu recorrido en la Página 4"
+        <Label Text="Monitor ASUS ROG Swift OLED PG27AQDM"
                FontSize="30" 
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
 
-        <Label Text="Aquí termina nuestra aplicación. Si tienes algún comentario, duda o sugerencia, este es el lugar para hacerlo. Queremos saber tu opinión y cómo podemos mejorar para ti."
+        <Label Text="El monitor ASUS ROG Swift OLED PG27AQDM ofrece una calidad visual impresionante con resolución 1440p, frecuencia de actualización de 240 Hz y tecnología OLED, ideal para juegos competitivos y trabajo creativo."
                FontSize="16"
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
-
 </ContentPage>
