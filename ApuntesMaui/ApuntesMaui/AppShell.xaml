@@ -6,61 +6,150 @@
     xmlns:local="clr-namespace:ApuntesMaui"
     Title="ApuntesMaui">
 
-    <FlyoutItem Title="INICIO">
-        <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    </FlyoutItem>
+    <FlyoutItem Title="INICIO" Icon="dotnet_bot.png">
 
-    <FlyoutItem Title="Pagina 1">
-        <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:Pagina1}"
-        Route="MainPage" />
-    </FlyoutItem>
+        <ShellContent Title="About"
+ContentTemplate="{DataTemplate local:AboutPage}"/>
 
-    <FlyoutItem Title="Pagina 2">
-        <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:Pagina2}"
-        Route="MainPage" />
-    </FlyoutItem>
-
-    <FlyoutItem Title="Pagina 3">
-        <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:Pagina3}"
-        Route="MainPage" />
-    </FlyoutItem>
-
-    <TabBar>
-        <Tab Title="Home" Icon="dotnet_bot.png">
-            <ShellContent
-                Title="Home"
-                ContentTemplate="{DataTemplate local:MainPage}"
-                Route="MainPage" />
-        </Tab>
 
         <Tab Title="Pagina 1" Icon="dotnet_bot.png">
             <ShellContent
-                Title="Home"
-                ContentTemplate="{DataTemplate local:Pagina1}"
-                Route="MainPage" />
+            Title="Pagina 1"
+            ContentTemplate="{DataTemplate local:Pagina1}"
+            Route="Pagina1" />
         </Tab>
-
         <Tab Title="Pagina 2" Icon="dotnet_bot.png">
             <ShellContent
-                Title="Home"
-                ContentTemplate="{DataTemplate local:Pagina2}"
-                Route="MainPage" />
+            Title="Pagina 2"
+            ContentTemplate="{DataTemplate local:Pagina2}"
+            Route="Pagina2" />
         </Tab>
-
         <Tab Title="Pagina 3" Icon="dotnet_bot.png">
             <ShellContent
-                Title="Home"
-                ContentTemplate="{DataTemplate local:Pagina3}"
-                Route="MainPage" />
+            Title="Pagina 3"
+            ContentTemplate="{DataTemplate local:Pagina3}"
+            Route="Pagina3" />
         </Tab>
-    </TabBar>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Pagina 4"
+            ContentTemplate="{DataTemplate local:Pagina4}"
+            Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+
+    <!-- Flyout Item que contiene Tabs -->
+    <FlyoutItem Title="Pagina 1" Icon="dotnet_bot.png">
+
+        <ShellContent Title="About"
+    ContentTemplate="{DataTemplate local:AboutPage}"/>
+
+
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 1"
+                ContentTemplate="{DataTemplate local:Pagina1}"
+                Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 2"
+                ContentTemplate="{DataTemplate local:Pagina2}"
+                Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 3"
+                ContentTemplate="{DataTemplate local:Pagina3}"
+                Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 4"
+                ContentTemplate="{DataTemplate local:Pagina4}"
+                Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 2" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 1"
+               ContentTemplate="{DataTemplate local:Pagina1}"
+               Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 2"
+               ContentTemplate="{DataTemplate local:Pagina2}"
+               Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 3"
+               ContentTemplate="{DataTemplate local:Pagina3}"
+               Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 4"
+               ContentTemplate="{DataTemplate local:Pagina4}"
+               Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 3" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 1"
+               ContentTemplate="{DataTemplate local:Pagina1}"
+               Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 2"
+               ContentTemplate="{DataTemplate local:Pagina2}"
+               Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 3"
+               ContentTemplate="{DataTemplate local:Pagina3}"
+               Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+               Title="Pagina 4"
+               ContentTemplate="{DataTemplate local:Pagina4}"
+               Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 4" Icon="dotnet_bot.png">
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 1"
+              ContentTemplate="{DataTemplate local:Pagina1}"
+              Route="Pagina1" />
+        </Tab>
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 2"
+              ContentTemplate="{DataTemplate local:Pagina2}"
+              Route="Pagina2" />
+        </Tab>
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 3"
+              ContentTemplate="{DataTemplate local:Pagina3}"
+              Route="Pagina3" />
+        </Tab>
+        <Tab Title="Pagina 4" Icon="dotnet_bot.png">
+            <ShellContent
+              Title="Pagina 4"
+              ContentTemplate="{DataTemplate local:Pagina4}"
+              Route="Pagina4" />
+        </Tab>
+    </FlyoutItem>
+
+
+
+
 </Shell>

@@ -1,4 +1,6 @@
-﻿namespace ApuntesMaui
+﻿
+
+namespace ApuntesMaui
 {
     public partial class AppShell : Shell
     {
